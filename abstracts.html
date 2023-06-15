@@ -13,7 +13,7 @@
 
 <title>Abstracts</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -137,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -170,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -179,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -273,10 +274,41 @@ $(document).ready(function () {
 <div id="presentations" class="section level1">
 <h1>Presentations</h1>
 <ol style="list-style-type: decimal">
-<li><p><strong>Ön, ZB</strong>, Macdonald, N, Akçer-Ön, S and Greaves,
-AM 2022. Reconstruction of eastern Mediterranean Holocene temperature
-through Bayesian hierarchical regression of temperature data. Geological
-Congress of Turkey, April 11–15, Ankara, Turkey.</p></li>
+<li><p><u>2023</u></p></li>
+<li><p>Okur, H, Erturaç, MK, Çelen, M, Şahiner, E, <strong>Ön,
+ZB</strong>, Akçer-Ön, S, Köse, N 2023. The Last 600-Year Hydrological
+History and Extreme Events of Northwest Anatolia. Geological Congress of
+Turkey, April 10–14, Ankara, Turkey.</p></li>
+<li><p>Danladi, IB, Akçer-Ön, S, Litt, T, <strong>Ön, ZB</strong>,
+Wacker, L 2023. Determination of Late Holocene Climate Changes from the
+Sedimentary Records of the Isparta Gölcük Lake (Southwest Anatolia).
+Geological Congress of Turkey, April 10–14, Ankara, Turkey.</p></li>
+<li><p><strong>Ön, ZB</strong> 2023. Bayesian Change Point Analysis for
+Evaluation of the 4.2 ka BP Climate Event in Southeast Europe and
+Southwest Asia. Geological Congress of Turkey, April 10–14, Ankara,
+Turkey.</p></li>
+<li><p><u>2022</u></p></li>
+<li><p>Okur, H, Erturaç, MK, Çelen, M, Şahiner, E, <strong>Ön,
+ZB</strong>, Köse, N, Akçer-Ön, S, Makaroğlu, Ö, Karlıoğlu-Kılıç, N,
+Güner, HT, Bulut, E, Küçük, F, Gümüş, BA, Gürbüz, A and Öncel, MS 2022.
+Investigation of past hydrological extremes (HEX) using river flood
+plain sediments: Sakarya River, NW Türkiye. 6th Asia-Pacific Conference
+on Luminescence and Electron Spin Resonance Dating - APLED, September
+26–28, Ankara, Turkey.</p></li>
+<li><p>Akçer-Ön, S, Greaves, AM, Manning, SW, <strong>Ön, ZB</strong>,
+Çağatay, MN, Sakınç, M, Oflaz, A, Tunoğlu, C and Salihoğlu R 2019. When
+did Gulf of Latmos isolated from Aegean Sea? The Future of Ancient
+Forests, June 20, Liverpool, UK.</p></li>
+<li><p><strong>Ön, ZB</strong>, Macdonald, N, Akçer-Ön, S and Greaves AM
+2022. Reconstruction of eastern Mediterranean Holocene temperature
+through Bayesian hierarchical regression of temperature data. The Future
+of Ancient Forests, June 20, Liverpool, UK.</p></li>
+<li><p>Akçer-Ön, S, <strong>Ön, ZB</strong>, Çağatay, N, Eriş, K, Wulf,
+S, Salihoğlu, R, Bauch, ID, Acar, D, Sancar, Ü and Çelik-Balcı, N 2022.
+High resolution Late Holocene climatic records from Lake Salda
+sediments. The workshop of Salda and Burdur Lakes with international
+participation, June 5–7, Burdur, Turkey.</p></li>
+<li><p><u>2021</u></p></li>
 <li><p>Okur, H, Erturaç, MK, Koçal-Çelen, M, Şahiner, E, Gürbüz, A,
 Makaroğlu, Ö, Akçer-Ön, S, Karlıoğlu-Kılıç, N, Gümüş, BA, Güner, HT,
 <strong>Ön, ZB</strong>, Bulut, E, Küçük, F, Babadağ, BB, Mouralis, D,
@@ -284,8 +316,8 @@ Köse, N and Öncel, MS 2021. Investigation of past hydrological extremes
 (HEX) using river flood plain sediments: Sakarya River. Sedimentology
 Working Group 2020, September 2–5, Ayvalık, Turkey.</p></li>
 <li><p><strong>Ön, ZB</strong>, Akkiraz, MS, Ghaleb, B, Wulf, S and
-Akçer-Ön, S 2021. Chronology of a 296 m long sediment sequence spanning
-the last 1.35 myr from Lake Acıgöl (SW Anatolia). Sedimentology Working
+Akçer-Ön, S 2021. Chronology of a 296 m long sediment sequence spanning
+the last 1.35 myr from Lake Acıgöl (SW Anatolia). Sedimentology Working
 Group 2020, September 2–5, Ayvalık, Turkey.</p></li>
 <li><p>Danladi, IB, Akçer-Ön, S, Litt, T and <strong>Ön, ZB</strong>
 2021. Climate and environmental reconstruction through sediment records
@@ -297,15 +329,17 @@ Sert, Ö 2021. The Little Ice Age and Medieval Climate Anomaly in
 Istanbul: Correlation of Küçükçekmece Lagoon Sedimentary Records with
 Historical and Instrumental Data. Winds of Change: Environment and
 Society in Anatolia, April 29–30, İstanbul, Turkey.</p></li>
+<li><p><u>2020</u></p></li>
 <li><p>Okur, H, Mouralis, D, Gürbüz, A, Erturaç, MK, Makaroğlu, Ö,
 Şahiner, E, Köse, N, Karlıoğlu-Kılıç, N, Gümüş, BA, <strong>Ön,
 ZB</strong> and Akçer-Ön, S 2020. Investigation of Holocene
 palaeo-hydrological changes using fluvial archives: A case study for
 Sakarya River terraces, NW Anatolia (Turkey). Journées des Jeunes
 Géomorphologues, February 6–7, İzmir, Turkey.</p></li>
+<li><p><u>2019</u></p></li>
 <li><p><strong>Ön, ZB</strong>, Özeren, MS, Akçer-Ön, S and Greaves, AM
 2019. A Bayesian test for the southeast Europe and southwest Asia
-paleoclimate data used as evidences of the 4.2 ka BP event. 4.2 ka BP in
+paleoclimate data used as evidences of the 4.2 ka BP event. 4.2 ka BP in
 Anatolia: The Crisis Years and Aftermath, May 17–18, İzmir,
 Turkey.</p></li>
 <li><p><strong>Ön, ZB</strong> 2019. Filling the Gaps in Climate
@@ -316,44 +350,47 @@ ZB</strong> 2019. Hydroclimate Changes in the Lake Gölcük (Isparta, SW
 Anatolia) Sedimentary Records. GRECPIMA, May 8–10, Muğla,
 Turkey.</p></li>
 <li><p><strong>Ön, ZB</strong>, Özeren, MS, Akçer-Ön, S and Greaves, AM
-2019. A Bayesian test on the 4.2 ka BP abrupt climatic change event for
+2019. A Bayesian test on the 4.2 ka BP abrupt climatic change event for
 the Eastern Mediterranean and Arabian Peninsula paleoclimate data using
 structural time series. SNELA, March 13–16, İstanbul, Turkey.</p></li>
-<li><p>Akçer-Ön, S, Greaves, AM, <strong>Ön, ZB</strong>, Manning, SW,
-Çağatay, MN, Sakınç, M, Tunoğlu, C and Salihoğlu R 2019. When did Gulf
-of Latmos isolated from Aegean Sea? SNELA, March 13–16, İstanbul,
-Turkey.</p></li>
+<li><p>Akçer-Ön, S, Greaves, AM, Manning, SW, <strong>Ön, ZB</strong>,
+Çağatay, MN, Sakınç, M, Oflaz, A, Tunoğlu, C and Salihoğlu R 2019. When
+did Gulf of Latmos isolated from Aegean Sea? SNELA, March 13–16,
+İstanbul, Turkey.</p></li>
+<li><p><u>2018</u></p></li>
 <li><p><strong>Ön, ZB</strong> and Özeren, MS 2018. Cold and wet glacial
 maximum periods in eastern Mediterranean: Independent component analysis
-results of 250 kyr long continuous Lake Van sediments. TURQUA, May 2–5,
+results of 250 kyr long continuous Lake Van sediments. TURQUA, May 2–5,
 İstanbul, Turkey.</p></li>
 <li><p><strong>Ön, ZB</strong>, Özeren, MS, Akçer-Ön, S and Greaves, AM
-2018. The 4.2 ka BP event, was it really global? TURQUA, May 2–5,
+2018. The 4.2 ka BP event, was it really global? TURQUA, May 2–5,
 İstanbul, Turkey.</p></li>
 <li><p>Eriş, KK, Akçer-Ön, S, Çağatay, MN and <strong>Ön, ZB</strong>
 2018. Late Pleistocene-Holocene paleoclimate and water level changes in
 Lake Hazar, eastern Anatolia, Turkey. TURQUA, May 2–5, İstanbul,
 Turkey.</p></li>
+<li><p><u>2017</u></p></li>
 <li><p>Akçer-Ön, S, Greaves, AM, <strong>Ön, ZB</strong>, Manning, SW,
-Çağatay, MN, Sakınç, M and Tunoğlu, C 2017. When did Latmos Gulf close?
+Çağatay, MN, Sakınç, M and Tunoğlu, C 2017. When did Latmos Gulf close?
 Geology versus Archaeology. International Open
 Workshop-Socio-Environmental Dynamics over the Last 12,000 Years: The
 Creation of Landscapes V, March 20–24, Kiel, Germany.</p></li>
 <li><p><strong>Ön, ZB</strong> 2017. Croll-Milankovitch Hypothesis: Its
 past, problems and applications. Geological Congress of Turkey, April
 10–14, Ankara, Turkey.</p></li>
+<li><p><u>2016</u></p></li>
 <li><p>Akçer-Ön, S, <strong>Ön, ZB</strong>, Çağatay, MN, Sakınç, M,
 Helvacı, C, Gündoğan, İ, Eriş, KK, Acar, D, Akkiraz, MS, Sancar, Ü,
 García-Veigas, J, Büyükmeriç, Y, Danladi, IB, Salihoğlu, R, Wulf, S,
 Appelt, O, Şen, ÖL and Özdoğan, M 2016. High resolution climatic records
-of Western Anatolia for the last 700 ka: Acıgöl Lake sediments.
+of Western Anatolia for the last 700 ka: Acıgöl Lake sediments.
 MedCLIVAR, September 26–30, Athens, Greece.</p></li>
 <li><p><strong>Ön, ZB</strong>, Akçer-Ön, S, Özeren, MS and Eriş, KK
 2016. Independent component analysis of -XRF time-series data: an
 example from Lake Hazar. TURQUA, May 8–11, İstanbul, Turkey.</p></li>
 <li><p>Akçer-Ön, S, <strong>Ön, ZB</strong>, Acar, D, Danladi, IB,
 Çağatay, MN and Helvacı, C 2016. High resolution climatic records of
-Western Anatolia for the last 700 ka: Acıgöl lake sediments. TURQUA, May
+Western Anatolia for the last 700 ka: Acıgöl lake sediments. TURQUA, May
 8–11, İstanbul, Turkey.</p></li>
 <li><p>Eriş, KK, Akçer-Ön, S, <strong>Ön, ZB</strong> and Çağatay, MN
 2016. Late Pleistocene to Holocene paleoenvironmental evolution of Lake
@@ -363,10 +400,12 @@ TURQUA, May 8–11, İstanbul, Turkey.</p></li>
 Salihoğlu, R, Danladi, IB, Eriş, KK, Appelt, O and Acar, D 2016. High
 resolution Middle-Late Holocene climatic records from Lake Salda (W.
 Anatolia) sediments. TURQUA, May 8–11, İstanbul, Turkey.</p></li>
+<li><p><u>2015</u></p></li>
 <li><p>Akçer-Ön, S, Greaves, AM, Çağatay, MN, Sakınç, M, <strong>Ön,
 ZB</strong> and Tunoğlu, C 2015. When did Latmos Gulf close? Geology
 versus archaeology. Geological Congress of Turkey, April 6–10, Ankara,
 Turkey.</p></li>
+<li><p><u>2014</u></p></li>
 <li><p>Erel, TL, Batır, B and <strong>Ön, ZB</strong> 2014. The Impact
 of the Changing Coastline on the Harbors in Bodrum and Datça Peninsulas,
 and the Examples of Bodrum (Halikarnassos), Aspat (Strobilos), Datça
@@ -380,6 +419,7 @@ Turkey.</p></li>
 Acar, D 2014. Late Pleistocene-Holocene climate variability from Lake
 Hazar (SE Turkey) sedimentary records. MedCLIVAR, June 22–25, Ankara,
 Turkey.</p></li>
+<li><p><u>2013</u></p></li>
 <li><p><strong>Ön, ZB</strong>, Özeren, MS, Çağatay, MN, Akçer-Ön, S,
 Damcı, E and Sancar, Ü 2013. Late Pleistocene-Holocene climatic cycles
 from Lake Van sediments. Geological Congress of Turkey, April 1–5,
@@ -389,34 +429,38 @@ Ankara, Turkey.</p></li>
 <div id="posters" class="section level1">
 <h1>Posters</h1>
 <ol style="list-style-type: decimal">
-<li><p>Danladi, IB, Akçer-Ön, S, <strong>Ön, ZB</strong> and Acar, D
+<li><p><u>2019</u></p></li>
+<li><p>Danladi, IB, Akçer-Ön, S, <strong>Ön, ZB</strong> and Acar, D
 2019. The Late Holocene Climate Changes from Lake Gölcük (SW Anatolia):
 Evidence from Multi-proxy Results. EGU, April 7–12, Vienna,
 Austria.</p></li>
-<li><p>Korkmaz, T, <strong>Ön, ZB</strong> and Akçer-Ön, S 2018.
+<li><p><u>2018</u></p></li>
+<li><p>Korkmaz, T, <strong>Ön, ZB</strong> and Akçer-Ön, S 2018.
 Preliminary results on tephrochronological record of Lake Acıgöl.
 TURQUA, May 2–5, İstanbul, Turkey.</p></li>
+<li><p><u>2017</u></p></li>
 <li><p><strong>Ön, ZB</strong>, Akçer-Ön, S, Özeren, MS, Eriş, KK,
 Greaves, AM and Çağatay, MN 2017. Revealing the precipitation and
 temperature records of Lake Hazar (Eastern Anatolia) from -XRF data, for
-the last 17.8 ka via Independent Component Analysis. International Open
+the last 17.8 ka via Independent Component Analysis. International Open
 Workshop-Socio-Environmental Dynamics over the Last 12,000 Years: The
 Creation of Landscapes V, March 20–24, Kiel, Germany.</p></li>
 <li><p>Akçer-Ön, S, <strong>Ön, ZB</strong>, Akkiraz, MS, Helvacı, C,
 Çağatay, MN, Sakınç, M, Eriş, KK, Acar, D, Gündoğan, İ, Wulf, S, Sancar,
 Ü, García-Veigas, J, Büyükmeriç, Y, Danladi, IB, Salihoğlu, R, Şen, ÖL,
 Özdoğan, M and Appelt, O 2017. High resolution climatic &amp;
-environmental records of western Anatolia for the last 320 ka: Acıgöl
+environmental records of western Anatolia for the last 320 ka: Acıgöl
 lake sediments. Geological Congress of Turkey, April 10–14, Ankara,
 Turkey.</p></li>
 <li><p>Akçer-Ön, S, <strong>Ön, ZB</strong>, Çağatay, MN, Eriş, KK,
 Sakınç, M, Wulf, S, Helvacı, C, Acar, D, Gündoğan, İ, Akkiraz, MS,
 Sancar, Ü, García-Veigas, J, Danladi, IB, Salihoğlu, R, Büyükmeriç, Y,
 Appelt, O, Şen, ÖL and Özdoğan, M 2017. High resolution Middle-Late
-Holocene climatic records from Lake Salda (W. Anatolia) sediments.
+Holocene climatic records from Lake Salda (W. Anatolia) sediments.
 Geological Congress of Turkey, April 10–14, Ankara, Turkey.</p></li>
+<li><p><u>2016</u></p></li>
 <li><p><strong>Ön, ZB</strong>, Akçer-Ön, S, Özeren, MS, Eriş, KK,
-Greaves, AM and Çağatay, MN 2016. Extracting the precipitation and
+Greaves, AM and Çağatay, MN 2016. Extracting the precipitation and
 temperature proxies from Lake Hazar (SE Anatolia) -XRF core data, by
 using independent component analysis. MedCLIVAR, September 26–30,
 Athens, Greece.</p></li>
@@ -428,18 +472,20 @@ Holocene climatic records from Lake Salda (W. Anatolia) sediments.
 MedCLIVAR, September 26–30, Athens, Greece.</p></li>
 <li><p>Danladi, IB, Salihoğlu, R, <strong>Ön, ZB</strong> and Akçer-Ön,
 S 2016. High-resolution multi proxy evidences of climate changes during
-the past 1400 years from Lake Salda sediment records (SW Turkey).
+the past 1400 years from Lake Salda sediment records (SW Turkey).
 MedCLIVAR, September 26–30, Athens, Greece.</p></li>
+<li><p><u>2015</u></p></li>
 <li><p>Türkmen, D, Şen, Ş, Akçer-Ön, S, <strong>Ön, ZB</strong> and
 Önal-Süzek, T 2015. Mobile Application Based Geological Core Database
 System. Genç Yerbilimciler Kongresi, June, 5–7, İzmir, Turkey.</p></li>
+<li><p><u>2014</u></p></li>
 <li><p>Akçer-Ön, S, Çağatay, N., Sakınç, M, <strong>Ön, ZB</strong> and
 Acar, D 2014. Little Ice Age and Medieval Warm Period in Istanbul:
 Correlation of Küçükçekmece Lagoon sedimentary records with historical
 data. International Symposium on Eastern Mediterranean Geology, October,
 13–17, Muğla, Turkey.</p></li>
-<li><p><strong>Ön, ZB</strong>, Özeren, MS, Çağatay, MN, Eriş, KK and
-Akçer-Ön, S 2014. Late Pleistocene-Holocene climatic cycles from Eastern
+<li><p><strong>Ön, ZB</strong>, Özeren, MS, Çağatay, MN, Eriş, KK and
+Akçer-Ön, S 2014. Late Pleistocene-Holocene climatic cycles from Eastern
 Anatolia. International Symposium on Eastern Mediterranean Geology,
 October, 13–17, Muğla, Turkey.</p></li>
 <li><p>Ankut, Z, Ercan, S, Eroğlu, C, Akçer-Ön, S, Korkmaz, T,
