@@ -1,0 +1,5 @@
+---
+title: "Z. Bora Ön (PhD)"
+---
+  
+After completing my undergraduate education in mathematics, my interest shifted towards the field of earth sciences, particularly climate science. During my PhD studies, I focused on utilizing information theory-based signal separation techniques to extract paleoclimate data from geochemical data. Additionally, I employed Bayesian statistics to investigate the claimed occurrence of a drought approximately 4200 years ago. Following the completion of my doctoral studies, I have continued my research in the areas of past climate reconstructions and cluster analysis, employing Bayesian statistics as a fundamental tool.
