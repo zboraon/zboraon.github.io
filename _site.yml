@@ -1,0 +1,15 @@
+name: "my-website"
+navbar:
+  title: "Z. Bora Ön"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Papers"
+      href: publications.html
+    - text: "Conference abstracts"
+      href: abstracts.html
+output:
+  html_document:
+    theme: cerulean
