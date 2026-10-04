@@ -1,3 +1,14 @@
+# Zeki Bora Ön, PhD
+
+Bayesian statistics · palaeoclimate · environmental time series
+
+Academic website: https://zboraon.github.io/
+
+I develop and apply Bayesian statistical methods to palaeoclimate
+and environmental records, including hierarchical models,
+change-point analysis, state-space models and uncertainty-aware
+reconstruction of incomplete proxy time series.
+
 # Zeki Bora Ön — Bayesian Statistics, Palaeoclimate and Environmental Time Series
 
 This repository hosts the academic website of **Zeki Bora Ön**, Assistant Professor at **Muğla Sıtkı Koçman University, Türkiye**.
