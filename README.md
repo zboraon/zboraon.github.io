@@ -1,4 +1,4 @@
-Zeki Bora Ön — Bayesian Statistics, Palaeoclimate and Environmental Time Series
+**Zeki Bora Ön — Bayesian Statistics, Palaeoclimate and Environmental Time Series**
 
 This repository hosts the academic website of Zeki Bora Ön, Assistant Professor at Muğla Sıtkı Koçman University, Türkiye.
 
@@ -8,7 +8,7 @@ ORCID: https://orcid.org/0000-0002-8684-3476
 Google Scholar: https://scholar.google.com.tr/citations?user=vldGBdoAAAAJ
 GitHub: https://github.com/zboraon
 
-Research profile
+**Research profile**
 
 My research focuses on the development and application of Bayesian statistical methods to palaeoclimate, palaeoenvironmental and environmental time-series data.
 
@@ -23,7 +23,7 @@ I am particularly interested in statistical problems that arise when environment
 
 My work combines statistical methodology with applications to Quaternary and Holocene climate variability, particularly in the eastern Mediterranean, Anatolia and adjacent regions.
 
-Main research areas
+**Main research areas**
 
 Bayesian palaeoclimate reconstruction
 
@@ -108,7 +108,7 @@ My earlier work includes statistical extraction of environmental signals from se
 
 Applications include long sediment sequences from Lake Van and Lake Hazar in eastern Anatolia.
 
-Scientific applications
+**Scientific applications**
 
 The statistical methods developed or applied in this research are relevant to questions involving:
 
@@ -127,7 +127,7 @@ The statistical methods developed or applied in this research are relevant to qu
 - state-space modelling,
 - environmental time-series analysis.
 
-Geographic focus
+**Geographic focus**
 
 Research applications include palaeoclimate and palaeoenvironmental records from:
 
@@ -142,7 +142,7 @@ Research applications include palaeoclimate and palaeoenvironmental records from
 - Lake Gölcük,
 - Lake Acıgöl.
 
-Publications
+**Publications**
 
 The complete publication guide is available at:
 
@@ -193,7 +193,9 @@ Academic affiliation
 
 Zeki Bora Ön
 Department of Electrical and Electronics Engineering
+Department of Geological Engineering
+
 Muğla Sıtkı Koçman University
 Muğla, Türkiye
 
-Email: boraon@mu.edu.tr
+Email: boraon at mu.edu.tr
