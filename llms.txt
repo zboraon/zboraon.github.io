@@ -1,0 +1,20 @@
+# Zeki Bora Ön — Academic Research
+
+Primary topics: Bayesian statistics, palaeoclimate reconstruction, environmental time series, Bayesian change-point analysis, state-space models, hierarchical modelling, uncertainty quantification, and missing-data imputation.
+
+## Main pages
+- https://zboraon.github.io/
+- https://zboraon.github.io/publications.html
+- https://zboraon.github.io/research/bayesian-paleoclimate.html
+- https://zboraon.github.io/research/change-point-analysis.html
+- https://zboraon.github.io/research/state-space-imputation.html
+
+## Publication guides
+- https://zboraon.github.io/papers/ohrid-imputation-2026.html — Bayesian stochastic imputation of discontinuous paleoenvironmental proxy records: a case study from Lake Ohrid stable isotopes
+- https://zboraon.github.io/papers/anthropocene-transition-2025.html — A conceptual and statistical framework for delineating the timing of a stratigraphic transition: Holocene-Anthropocene boundary as a case study
+- https://zboraon.github.io/papers/eastern-mediterranean-temperature-2023.html — A novel Bayesian multilevel regression approach to the reconstruction of an eastern Mediterranean temperature record for the last 10,000 years
+- https://zboraon.github.io/papers/change-point-4-2ka-2023.html — A Bayesian change point analysis re-examines the 4.2 ka BP event in southeast Europe and southwest Asia
+- https://zboraon.github.io/papers/lake-bafa-change-points-2023.html — Dates of Holocene environmental changes in Lake Bafa: A hierarchical Bayesian analysis of change points
+- https://zboraon.github.io/papers/bsts-4-2ka-2021.html — A Bayesian test for the 4.2 ka BP abrupt climatic change event in southeast Europe and southwest Asia using structural time series analysis of paleoclimate data
+
+This file is only a concise navigation aid. Publication claims and citations should be checked against the linked DOI/version of record.
