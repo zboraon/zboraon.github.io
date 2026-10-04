@@ -1,0 +1,671 @@
+{
+  "author": {
+    "name": "Zeki Bora Ön",
+    "orcid": "https://orcid.org/0000-0002-8684-3476",
+    "homepage": "https://zboraon.github.io/"
+  },
+  "last_updated": "2026-10-04",
+  "journal_articles": [
+    {
+      "type": "journal",
+      "slug": "ohrid-imputation-2026",
+      "title": "Bayesian stochastic imputation of discontinuous paleoenvironmental proxy records: a case study from Lake Ohrid stable isotopes",
+      "authors": [
+        "Zeki Bora Ön"
+      ],
+      "year": 2026,
+      "journal": "Environmental and Ecological Statistics",
+      "volume": "33",
+      "issue": "",
+      "pages": "129–148",
+      "doi": "10.1007/s10651-025-00701-6",
+      "summary": "A two-stage Bayesian framework for imputing missing palaeoenvironmental proxy values while propagating uncertainty, demonstrated on Lake Ohrid stable isotopes.",
+      "keywords": [
+        "Bayesian inference",
+        "state-space model",
+        "SSVS",
+        "imputation",
+        "palaeoclimate",
+        "stable isotopes",
+        "MCMC"
+      ],
+      "date": "2026-01-24",
+      "code": "https://github.com/zboraon/proxy_impuation_SSVS",
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "seki-basin-2026",
+      "title": "Holocene vegetation change, climate variability, and human impacts on the Seki Basin (southwestern Türkiye): Evidence from a multiproxy approach",
+      "authors": [
+        "Zahra Hashemi",
+        "Demet Biltekin",
+        "Alan M. Greaves",
+        "Sena Akçer-Ön",
+        "Zeki Bora Ön",
+        "Memet Namık Çağatay",
+        "Ömer Yetemen"
+      ],
+      "year": 2026,
+      "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+      "volume": "700",
+      "issue": "",
+      "pages": "114053",
+      "doi": "10.1016/j.palaeo.2026.114053",
+      "summary": "A multiproxy reconstruction of Holocene vegetation, climate variability and human influence in the Seki Basin of southwestern Türkiye.",
+      "keywords": [
+        "Seki Basin",
+        "Holocene",
+        "pollen",
+        "multiproxy",
+        "μXRF",
+        "TOC",
+        "TIC",
+        "human impacts"
+      ],
+      "date": "2026-10-15",
+      "code": null,
+      "data": null,
+      "oa": "https://livrepository.liverpool.ac.uk/3199432/"
+    },
+    {
+      "type": "journal",
+      "slug": "fire-climate-human-2026",
+      "title": "Fire–climate–human interactions during the Holocene: insights from sediment records in southwestern Türkiye",
+      "authors": [
+        "Zahra Hashemi",
+        "Demet Biltekin",
+        "Alan M. Greaves",
+        "Sena Akçer-Ön",
+        "Zeki Bora Ön",
+        "Ksenia Zagvozdina",
+        "Ömer Yetemen"
+      ],
+      "year": 2026,
+      "journal": "Mediterranean Geoscience Reviews",
+      "volume": "8",
+      "issue": "2",
+      "pages": "665–682",
+      "doi": "10.1007/s42990-026-00247-0",
+      "summary": "A long-term assessment of interactions among fire, vegetation, climate and human land use in southwestern Türkiye.",
+      "keywords": [
+        "Holocene",
+        "fire history",
+        "charcoal",
+        "vegetation",
+        "human impact",
+        "southwestern Türkiye"
+      ],
+      "date": "2026-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "acigol-chronology-2025",
+      "title": "Chronology and environmental changes from a sediment core spanning the last 485 ka from Lake Acıgöl (SW Anatolia)",
+      "authors": [
+        "Hüseyin Çaldırak",
+        "Zeki Bora Ön",
+        "Mehmet Serkan Akkiraz",
+        "M. Namık Çağatay",
+        "Bassam Ghaleb",
+        "Sabine Wulf",
+        "Kadir Eriş",
+        "Dursun Acar",
+        "Jérôme Kaiser",
+        "Sena Akçer-Ön"
+      ],
+      "year": 2025,
+      "journal": "Quaternary International",
+      "volume": "722",
+      "issue": "",
+      "pages": "109710",
+      "doi": "10.1016/j.quaint.2025.109710",
+      "summary": "A chronology and environmental interpretation for the upper part of the long Lake Acıgöl sediment record, extending across roughly the last 485 kyr.",
+      "keywords": [
+        "Lake Acıgöl",
+        "Quaternary",
+        "age-depth model",
+        "pollen",
+        "tephra",
+        "glacial–interglacial",
+        "Anatolia"
+      ],
+      "date": "2025-03-15",
+      "code": null,
+      "data": null,
+      "oa": "https://researchportal.port.ac.uk/en/publications/chronology-and-environmental-changes-from-a-sediment-core-spannin/"
+    },
+    {
+      "type": "journal",
+      "slug": "anthropocene-transition-2025",
+      "title": "A conceptual and statistical framework for delineating the timing of a stratigraphic transition: Holocene-Anthropocene boundary as a case study",
+      "authors": [
+        "Zeki Bora Ön",
+        "Mustafa Efe Ateş",
+        "Jérôme Kaiser"
+      ],
+      "year": 2025,
+      "journal": "Progress in Physical Geography: Earth and Environment",
+      "volume": "49",
+      "issue": "1–2",
+      "pages": "63–83",
+      "doi": "10.1177/03091333241310742",
+      "summary": "A multilevel Bayesian change-point and errors-in-variables framework for estimating a stratigraphic transition from multiple records.",
+      "keywords": [
+        "Anthropocene",
+        "hierarchical Bayesian model",
+        "change point",
+        "errors in variables",
+        "chronostratigraphy",
+        "radiocarbon"
+      ],
+      "date": "2025-01-07",
+      "code": "https://github.com/zboraon/anthropocene_date",
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "eastern-mediterranean-temperature-2023",
+      "title": "A novel Bayesian multilevel regression approach to the reconstruction of an eastern Mediterranean temperature record for the last 10,000 years",
+      "authors": [
+        "Zeki Bora Ön",
+        "Neil Macdonald",
+        "Sena Akçer-Ön",
+        "Alan M. Greaves"
+      ],
+      "year": 2023,
+      "journal": "The Holocene",
+      "volume": "33",
+      "issue": "7",
+      "pages": "807–815",
+      "doi": "10.1177/09596836231163508",
+      "summary": "A fully Bayesian multilevel regression synthesis of proxy-based temperature reconstructions for the eastern Mediterranean over the last 10,000 years.",
+      "keywords": [
+        "Bayesian hierarchical model",
+        "eastern Mediterranean",
+        "MCMC",
+        "palaeoclimate",
+        "Holocene",
+        "temperature"
+      ],
+      "date": "2023-04-18",
+      "code": "https://github.com/zboraon/bayesian_temperature_reconstruction",
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "golcuk-late-holocene-2023",
+      "title": "A Late Holocene climate reconstruction from the high-altitude Lake Gölcük sedimentary records, Isparta (SW Anatolia)",
+      "authors": [
+        "Iliya Bauchi Danladi",
+        "Sena Akçer-Ön",
+        "Thomas Litt",
+        "Zeki Bora Ön",
+        "Lukas Wacker"
+      ],
+      "year": 2023,
+      "journal": "Quaternary Research",
+      "volume": "115",
+      "issue": "",
+      "pages": "120–133",
+      "doi": "10.1017/qua.2023.26",
+      "summary": "A high-resolution multiproxy reconstruction of late-Holocene climate variability from Lake Gölcük in southwestern Anatolia.",
+      "keywords": [
+        "Lake Gölcük",
+        "Late Holocene",
+        "stable isotopes",
+        "μXRF",
+        "NAO",
+        "solar variability",
+        "Anatolia"
+      ],
+      "date": "2023-09-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "change-point-4-2ka-2023",
+      "title": "A Bayesian change point analysis re-examines the 4.2 ka BP event in southeast Europe and southwest Asia",
+      "authors": [
+        "Zeki Bora Ön"
+      ],
+      "year": 2023,
+      "journal": "Quaternary Science Reviews",
+      "volume": "312",
+      "issue": "",
+      "pages": "108163",
+      "doi": "10.1016/j.quascirev.2023.108163",
+      "summary": "A fully Bayesian change-point test of palaeoclimate records used to support the 4.2 ka BP event across southeast Europe and southwest Asia.",
+      "keywords": [
+        "4.2 ka event",
+        "Bayesian change point",
+        "MCMC",
+        "palaeoclimate",
+        "Holocene",
+        "abrupt climate change"
+      ],
+      "date": "2023-01-01",
+      "code": "https://github.com/zboraon/changepointfor_4_2_kaBP_event",
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "lake-bafa-change-points-2023",
+      "title": "Dates of Holocene environmental changes in Lake Bafa: A hierarchical Bayesian analysis of change points",
+      "authors": [
+        "Zeki Bora Ön"
+      ],
+      "year": 2023,
+      "journal": "Turkish Geographical Review",
+      "volume": "82",
+      "issue": "",
+      "pages": "23–36",
+      "doi": "10.17211/tcd.1283443",
+      "summary": "A hierarchical Bayesian change-point analysis of major Holocene environmental transitions in Lake Bafa using multiple proxy records.",
+      "keywords": [
+        "Lake Bafa",
+        "Bayesian hierarchical model",
+        "change point",
+        "MCMC",
+        "Holocene",
+        "geoarchaeology"
+      ],
+      "date": "2023-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "golcuk-high-resolution-2021",
+      "title": "High-resolution temperature and precipitation variability of southwest Anatolia since 1730 CE from Lake Gölcük sedimentary records",
+      "authors": [
+        "Iliya Bauchi Danladi",
+        "Sena Akçer-Ön",
+        "Zeki Bora Ön",
+        "Sabine Schmidt"
+      ],
+      "year": 2021,
+      "journal": "Turkish Journal of Earth Sciences",
+      "volume": "30",
+      "issue": "5",
+      "pages": "601–610",
+      "doi": "10.3906/yer-2008-14",
+      "summary": "A high-resolution reconstruction of temperature and precipitation variability in southwestern Anatolia since about 1730 CE from Lake Gölcük sediments.",
+      "keywords": [
+        "Lake Gölcük",
+        "Little Ice Age",
+        "NAO",
+        "solar variability",
+        "temperature",
+        "precipitation",
+        "Anatolia"
+      ],
+      "date": "2021-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "bsts-4-2ka-2021",
+      "title": "A Bayesian test for the 4.2 ka BP abrupt climatic change event in southeast Europe and southwest Asia using structural time series analysis of paleoclimate data",
+      "authors": [
+        "Zeki Bora Ön",
+        "Alan M. Greaves",
+        "Sena Akçer-Ön",
+        "M. Sinan Özeren"
+      ],
+      "year": 2021,
+      "journal": "Climatic Change",
+      "volume": "165",
+      "issue": "1–2",
+      "pages": "Article 7",
+      "doi": "10.1007/s10584-021-03010-6",
+      "summary": "A Bayesian structural-time-series and causal-impact test of palaeoclimate records proposed as evidence for the 4.2 ka BP event.",
+      "keywords": [
+        "4.2 ka event",
+        "Bayesian structural time series",
+        "CausalImpact",
+        "Holocene",
+        "abrupt climate change",
+        "eastern Mediterranean"
+      ],
+      "date": "2021-01-01",
+      "code": "https://github.com/zboraon/causalimpactfor4_2kaBPevent",
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "lake-bafa-redating-2020",
+      "title": "Redating the formation of Lake Bafa, western Turkey: Integrative geoarchaeological methods and new environmental and dating evidence",
+      "authors": [
+        "Sena Akçer-Ön",
+        "Alan M. Greaves",
+        "Sturt W. Manning",
+        "Zeki Bora Ön",
+        "M. Namık Çağatay",
+        "Mehmet Sakınç",
+        "Aslı Oflaz",
+        "Cemal Tunoğlu",
+        "Rana Salihoğlu"
+      ],
+      "year": 2020,
+      "journal": "Geoarchaeology",
+      "volume": "35",
+      "issue": "5",
+      "pages": "659–677",
+      "doi": "10.1002/gea.21791",
+      "summary": "An integrative geoarchaeological reassessment of when the former Latmian Gulf became Lake Bafa in western Türkiye.",
+      "keywords": [
+        "Lake Bafa",
+        "geoarchaeology",
+        "Büyük Menderes",
+        "Holocene",
+        "coastal evolution",
+        "chronology"
+      ],
+      "date": "2020-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "lake-van-ica-2019",
+      "title": "Temperature and precipitation variability in eastern Anatolia: Results from independent component analysis of Lake Van sediment data spanning the last 250 kyr BP",
+      "authors": [
+        "Zeki Bora Ön",
+        "M. Sinan Özeren"
+      ],
+      "year": 2019,
+      "journal": "Quaternary International",
+      "volume": "514",
+      "issue": "",
+      "pages": "119–129",
+      "doi": "10.1016/j.quaint.2018.11.037",
+      "summary": "Independent component analysis of long Lake Van sediment records to separate temperature- and precipitation-related signals across roughly 250 kyr.",
+      "keywords": [
+        "Lake Van",
+        "independent component analysis",
+        "ICA",
+        "Quaternary",
+        "temperature",
+        "precipitation",
+        "Anatolia"
+      ],
+      "date": "2019-04-30",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "lake-hazar-evolution-2018",
+      "title": "Late Pleistocene to Holocene paleoenvironmental evolution of Lake Hazar, Eastern Anatolia, Turkey",
+      "authors": [
+        "K. Kadir Eriş",
+        "Sena Akçer-Ön",
+        "M. Namık Çağatay",
+        "Umut Barış Ülgen",
+        "Zeki Bora Ön",
+        "Zülfü Gürocak",
+        "Tuğçe Nagihan Arslan",
+        "Dicle Bal Akkoca",
+        "Emre Damcı",
+        "Murat İnceöz",
+        "Özlem Öztekin Okan"
+      ],
+      "year": 2018,
+      "journal": "Quaternary International",
+      "volume": "486",
+      "issue": "",
+      "pages": "4–16",
+      "doi": "10.1016/j.quaint.2017.09.027",
+      "summary": "A seismic- and core-based reconstruction of Lake Hazar environmental and lake-level evolution from the Late Pleistocene through the Holocene.",
+      "keywords": [
+        "Lake Hazar",
+        "Late Pleistocene",
+        "Holocene",
+        "seismic stratigraphy",
+        "lake level",
+        "Anatolia"
+      ],
+      "date": "2018-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "lake-hazar-ica-2018",
+      "title": "Climate proxies for the last 17.3 ka from Lake Hazar (Eastern Anatolia), extracted by independent component analysis of μ-XRF data",
+      "authors": [
+        "Zeki Bora Ön",
+        "Sena Akçer-Ön",
+        "M. Sinan Özeren",
+        "K. Kadir Eriş",
+        "Alan M. Greaves",
+        "M. Namık Çağatay"
+      ],
+      "year": 2018,
+      "journal": "Quaternary International",
+      "volume": "486",
+      "issue": "",
+      "pages": "17–28",
+      "doi": "10.1016/j.quaint.2017.08.066",
+      "summary": "Independent component analysis of μ-XRF sediment-core data from Lake Hazar to extract temperature- and precipitation-sensitive signals for the last 17.3 kyr.",
+      "keywords": [
+        "Lake Hazar",
+        "μXRF",
+        "independent component analysis",
+        "ICA",
+        "Holocene",
+        "late glacial",
+        "Anatolia"
+      ],
+      "date": "2018-01-01",
+      "code": null,
+      "data": "https://doi.org/10.1594/PANGAEA.881383",
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "lake-van-spectral-2017",
+      "title": "Spectral Features of 250 kyr Long Lake Van Sediments: Milankovitch Cycles and Their Harmonics",
+      "authors": [
+        "Zeki Bora Ön",
+        "M. Sinan Özeren",
+        "Sena Akçer-Ön",
+        "M. Namık Çağatay"
+      ],
+      "year": 2017,
+      "journal": "Geological Bulletin of Turkey",
+      "volume": "60",
+      "issue": "4",
+      "pages": "471–488",
+      "doi": "10.25288/tjb.360604",
+      "summary": "A spectral analysis of a 250 kyr Lake Van sediment record to identify orbital and shorter-period climatic variability.",
+      "keywords": [
+        "Lake Van",
+        "spectral analysis",
+        "Lomb–Scargle",
+        "Milankovitch cycles",
+        "Quaternary",
+        "time series"
+      ],
+      "date": "2017-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    },
+    {
+      "type": "journal",
+      "slug": "salda-biomarkers-2016",
+      "title": "Sedimentary lipid biomarkers in the magnesium rich and highly alkaline Lake Salda (south-western Anatolia)",
+      "authors": [
+        "Jérôme Kaiser",
+        "Zeki Bora Ön",
+        "Helge W. Arz",
+        "Sena Akçer-Ön"
+      ],
+      "year": 2016,
+      "journal": "Journal of Limnology",
+      "volume": "75",
+      "issue": "3",
+      "pages": "581–596",
+      "doi": "10.4081/jlimnol.2016.1337",
+      "summary": "A lipid-biomarker study of the unusual magnesium-rich, highly alkaline Lake Salda sedimentary system.",
+      "keywords": [
+        "Lake Salda",
+        "lipid biomarkers",
+        "TEX86",
+        "brGDGT",
+        "alkaline lake",
+        "palaeolimnology"
+      ],
+      "date": "2016-01-01",
+      "code": null,
+      "data": null,
+      "oa": null
+    }
+  ],
+  "book_chapters": [
+    {
+      "type": "chapter",
+      "slug": "ocean-gradients-overview-2026",
+      "title": "An ocean of gradients – towards a 3D mapping and visualization of high-resolution marine data: An overview",
+      "authors": [
+        "Giuseppe D’Auria",
+        "Monia El Bour",
+        "Paola Furla",
+        "Donato Giovannelli",
+        "Laura Giuliano",
+        "Mohamed Jebbar",
+        "Paula Moschella",
+        "Zeki Bora Ön",
+        "Luis Pinheiro",
+        "Kaveh Rassoulzadegan",
+        "Mariana Reyes Prieto",
+        "Lorna Richardson",
+        "Thierry Schmitt",
+        "Javier Tamames",
+        "Virginie Tassin Campanella",
+        "Alberto Vitale Brovarone",
+        "Mikhail Yakimov",
+        "Mustafa Yücel",
+        "Noureddine Zaaboub"
+      ],
+      "year": 2026,
+      "book": "An Ocean of Gradients – Towards a 3D Mapping and Visualization of High-Resolution Marine Data",
+      "pages": "5–28",
+      "publisher": "CIESM",
+      "summary": "An interdisciplinary overview of how high-resolution observations can be integrated to describe and visualise physical, chemical, biological and geological gradients in the marine environment.",
+      "keywords": [
+        "marine gradients",
+        "high-resolution data",
+        "3D mapping",
+        "marine environment",
+        "CIESM"
+      ],
+      "editors": [
+        "Laura Giuliano",
+        "A. Rodriguez y Baena"
+      ],
+      "isbn": null,
+      "url": "https://ciesm.org/online/monographs/full/CIESM_Workshop_Monograph_53.pdf"
+    },
+    {
+      "type": "chapter",
+      "slug": "bayesian-missing-data-chapter-2026",
+      "title": "Bayesian Approaches for Imputing Missing Data in Environmental Studies: Hierarchical Models and Kalman Filter Techniques",
+      "authors": [
+        "Zeki Bora Ön",
+        "Sena Akçer-Ön"
+      ],
+      "year": 2026,
+      "book": "An Ocean of Gradients – Towards a 3D Mapping and Visualization of High-Resolution Marine Data",
+      "pages": "135–144",
+      "publisher": "CIESM",
+      "summary": "A practical comparison of Bayesian strategies for imputing missing environmental observations while incorporating uncertainty and information from related variables.",
+      "keywords": [
+        "Bayesian imputation",
+        "missing data",
+        "hierarchical model",
+        "Kalman filter",
+        "change point",
+        "environmental data"
+      ],
+      "editors": [
+        "Laura Giuliano",
+        "A. Rodriguez y Baena"
+      ],
+      "isbn": null,
+      "url": "https://ciesm.org/online/monographs/full/CIESM_Workshop_Monograph_53.pdf"
+    },
+    {
+      "type": "chapter",
+      "slug": "stable-isotopes-archaeology-2024",
+      "title": "Paleoiklim ve Paleoçevre Çalışmalarında Duraylı Oksijen ve Karbon İzotop Analizlerinin Kullanımı ve Arkeoloji ile İlişkilendirilmesi",
+      "authors": [
+        "Sena Akçer-Ön",
+        "Zeki Bora Ön",
+        "Alan M. Greaves"
+      ],
+      "year": 2024,
+      "book": "Arkeolojide Çok Disiplinli Yaklaşımlar",
+      "pages": "237–253",
+      "publisher": "Ege Yayınları",
+      "summary": "A Turkish-language methodological chapter on using stable oxygen and carbon isotope analyses in palaeoclimate and palaeoenvironmental research and linking the results with archaeological questions.",
+      "keywords": [
+        "stable isotopes",
+        "oxygen isotopes",
+        "carbon isotopes",
+        "palaeoclimate",
+        "archaeology",
+        "palaeoenvironment"
+      ],
+      "editors": [
+        "Çiğdem Atakuman",
+        "Gonca Dardeniz",
+        "Yılmaz Selim Erdal",
+        "Bülent Arıkan"
+      ],
+      "isbn": "978-625-6212-07-7",
+      "url": "https://egeyayinlari.com.tr/urun/Arkeolojide-Cok-Disiplinli-Yaklasimlar-540"
+    }
+  ],
+  "other_scholarly_contributions": [
+    {
+      "type": "other",
+      "slug": "climate-past-comment-2019",
+      "title": "Comment on H. Weiss’ review of “Is there evidence for a 4.2 ka B.P. event in the northern North Atlantic region?”",
+      "authors": [
+        "Zeki Bora Ön",
+        "Alan M. Greaves",
+        "Sena Akçer-Ön",
+        "M. Sinan Özeren"
+      ],
+      "year": 2019,
+      "venue": "Climate of the Past Discussions",
+      "summary": "A short interactive-review comment concerning interpretation of evidence for the 4.2 ka BP event.",
+      "url": "https://cp.copernicus.org/preprints/cp-2018-162/cp-2018-162-SC1.pdf",
+      "keywords": [
+        "4.2 ka event",
+        "Holocene",
+        "scientific comment",
+        "palaeoclimate"
+      ]
+    }
+  ]
+}

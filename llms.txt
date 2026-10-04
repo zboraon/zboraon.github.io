@@ -1,20 +1,33 @@
 # Zeki Bora Ön — Academic Research
 
-Primary topics: Bayesian statistics, palaeoclimate reconstruction, environmental time series, Bayesian change-point analysis, state-space models, hierarchical modelling, uncertainty quantification, and missing-data imputation.
+Research areas: Bayesian statistics, palaeoclimate reconstruction, environmental time series, change-point analysis, state-space models, missing-data imputation, independent component analysis, spectral analysis.
 
 ## Main pages
 - https://zboraon.github.io/
 - https://zboraon.github.io/publications.html
-- https://zboraon.github.io/research/bayesian-paleoclimate.html
-- https://zboraon.github.io/research/change-point-analysis.html
-- https://zboraon.github.io/research/state-space-imputation.html
 
-## Publication guides
+## Journal articles
+- https://zboraon.github.io/papers/seki-basin-2026.html — Holocene vegetation change, climate variability, and human impacts on the Seki Basin (southwestern Türkiye): Evidence from a multiproxy approach
+- https://zboraon.github.io/papers/fire-climate-human-2026.html — Fire–climate–human interactions during the Holocene: insights from sediment records in southwestern Türkiye
 - https://zboraon.github.io/papers/ohrid-imputation-2026.html — Bayesian stochastic imputation of discontinuous paleoenvironmental proxy records: a case study from Lake Ohrid stable isotopes
+- https://zboraon.github.io/papers/acigol-chronology-2025.html — Chronology and environmental changes from a sediment core spanning the last 485 ka from Lake Acıgöl (SW Anatolia)
 - https://zboraon.github.io/papers/anthropocene-transition-2025.html — A conceptual and statistical framework for delineating the timing of a stratigraphic transition: Holocene-Anthropocene boundary as a case study
-- https://zboraon.github.io/papers/eastern-mediterranean-temperature-2023.html — A novel Bayesian multilevel regression approach to the reconstruction of an eastern Mediterranean temperature record for the last 10,000 years
-- https://zboraon.github.io/papers/change-point-4-2ka-2023.html — A Bayesian change point analysis re-examines the 4.2 ka BP event in southeast Europe and southwest Asia
 - https://zboraon.github.io/papers/lake-bafa-change-points-2023.html — Dates of Holocene environmental changes in Lake Bafa: A hierarchical Bayesian analysis of change points
+- https://zboraon.github.io/papers/eastern-mediterranean-temperature-2023.html — A novel Bayesian multilevel regression approach to the reconstruction of an eastern Mediterranean temperature record for the last 10,000 years
+- https://zboraon.github.io/papers/golcuk-late-holocene-2023.html — A Late Holocene climate reconstruction from the high-altitude Lake Gölcük sedimentary records, Isparta (SW Anatolia)
+- https://zboraon.github.io/papers/change-point-4-2ka-2023.html — A Bayesian change point analysis re-examines the 4.2 ka BP event in southeast Europe and southwest Asia
+- https://zboraon.github.io/papers/golcuk-high-resolution-2021.html — High-resolution temperature and precipitation variability of southwest Anatolia since 1730 CE from Lake Gölcük sedimentary records
 - https://zboraon.github.io/papers/bsts-4-2ka-2021.html — A Bayesian test for the 4.2 ka BP abrupt climatic change event in southeast Europe and southwest Asia using structural time series analysis of paleoclimate data
+- https://zboraon.github.io/papers/lake-bafa-redating-2020.html — Redating the formation of Lake Bafa, western Turkey: Integrative geoarchaeological methods and new environmental and dating evidence
+- https://zboraon.github.io/papers/lake-van-ica-2019.html — Temperature and precipitation variability in eastern Anatolia: Results from independent component analysis of Lake Van sediment data spanning the last 250 kyr BP
+- https://zboraon.github.io/papers/lake-hazar-evolution-2018.html — Late Pleistocene to Holocene paleoenvironmental evolution of Lake Hazar, Eastern Anatolia, Turkey
+- https://zboraon.github.io/papers/lake-hazar-ica-2018.html — Climate proxies for the last 17.3 ka from Lake Hazar (Eastern Anatolia), extracted by independent component analysis of μ-XRF data
+- https://zboraon.github.io/papers/lake-van-spectral-2017.html — Spectral Features of 250 kyr Long Lake Van Sediments: Milankovitch Cycles and Their Harmonics
+- https://zboraon.github.io/papers/salda-biomarkers-2016.html — Sedimentary lipid biomarkers in the magnesium rich and highly alkaline Lake Salda (south-western Anatolia)
 
-This file is only a concise navigation aid. Publication claims and citations should be checked against the linked DOI/version of record.
+## Book chapters
+- https://zboraon.github.io/chapters/ocean-gradients-overview-2026.html — An ocean of gradients – towards a 3D mapping and visualization of high-resolution marine data: An overview
+- https://zboraon.github.io/chapters/bayesian-missing-data-chapter-2026.html — Bayesian Approaches for Imputing Missing Data in Environmental Studies: Hierarchical Models and Kalman Filter Techniques
+- https://zboraon.github.io/chapters/stable-isotopes-archaeology-2024.html — Paleoiklim ve Paleoçevre Çalışmalarında Duraylı Oksijen ve Karbon İzotop Analizlerinin Kullanımı ve Arkeoloji ile İlişkilendirilmesi
+
+Publication claims should be verified against the DOI or linked version of record.

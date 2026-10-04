@@ -1,23 +1,25 @@
-# Upload instructions
+# Zeki Bora Ön academic site — complete October 2026 refresh
 
-1. Keep your existing `zbon_resume.pdf` in the GitHub repository.
-2. Upload everything in this package to the repository root, preserving the `papers/` and `research/` folders.
-3. Replace the existing `index.html` when GitHub asks.
-4. Commit the changes.
-5. GitHub Pages should rebuild automatically.
+This package is ready to upload to the root of `zboraon/zboraon.github.io`.
 
-Files added/replaced:
-- index.html
-- publications.html
-- style.css
-- robots.txt
-- sitemap.xml
-- llms.txt
-- papers/*.html
-- research/*.html
+## What is included
+- 17 journal articles, each with an individual indexable HTML page
+- 3 book chapters, each with an individual HTML page
+- 1 other scholarly contribution (2019 Climate of the Past interactive-review comment)
+- four research-topic pages
+- searchable/filterable publications page
+- `publications.bib` and `publications.json`
+- scholarly `citation_*` metadata and Schema.org JSON-LD
+- updated `sitemap.xml`, `robots.txt`, and transparent `llms.txt`
 
-Notes:
-- No hidden AI prompt or invisible keyword text is used.
-- Individual publication pages contain Google Scholar-style `citation_*` metadata and Schema.org `ScholarlyArticle` JSON-LD.
-- `llms.txt` is included only as a transparent navigation aid; the important discovery work is done by visible content, ordinary crawlability, publication metadata, sitemap, and internal links.
-- The publication section is deliberately labelled “selected publications”. Google Scholar and the MSKÜ profile remain the complete publication sources.
+## Upload
+1. Keep the existing `zbon_resume.pdf` in the repository.
+2. Upload all files and folders from this package to the repository root.
+3. Replace existing files when GitHub asks.
+4. Preserve the folder structure (`papers/`, `chapters/`, `other/`, `research/`).
+5. Commit. GitHub Pages should rebuild automatically.
+
+The old `site_libs/` folder can remain; these new pages do not depend on it.
+
+## Metadata note
+The publication list was reconciled against the current MSKÜ staff publication record and publisher metadata. Where an institutional list reflects an early-online year but the journal issue has a later version-of-record year, the site uses the version-of-record year where it could be verified.
