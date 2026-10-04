@@ -18,7 +18,9 @@
 </div></header>
 <div class="hero"><div class="wrap">
 <div class="eyebrow">Bayesian statistics · palaeoclimate · environmental time series</div>
-<h1>Zeki Bora Ön</h1>
+<h1 class="hero-name">
+  Zeki Bora Ön <span class="degree">PhD</span>
+</h1>
 <p class="lead">I develop and apply Bayesian and stochastic methods to palaeoclimate and environmental records, with particular interests in state-space modelling, change-point detection, hierarchical models, uncertainty quantification, missing data and quantitative proxy extraction.</p>
 <div class="actions">
 <a class="btn primary" href="/publications.html">Publications</a>
@@ -48,8 +50,33 @@
 <p style="margin-top:20px"><a class="btn" href="/publications.html">Browse all publications →</a></p></section>
 <section><h2 class="section-title">Profiles & contact</h2>
 <p><a href="https://www.mu.edu.tr/tr/personel/boraon">University profile</a> · <a href="https://orcid.org/0000-0002-8684-3476">ORCID</a> · <a href="https://scholar.google.com.tr/citations?user=vldGBdoAAAAJ&hl=tr">Google Scholar</a> · <a href="https://www.researchgate.net/profile/Zeki-Oen">ResearchGate</a> · <a href="https://github.com/zboraon">GitHub</a></p>
-<p>Email: <a href="mailto:boraon@mu.edu.tr">boraon@mu.edu.tr</a></p>
-<p>Email: <a href="mailto:zekiboraon@gmail.com">zekiboraon@gmail.com, href="mailto:boraon@mu.edu.tr">boraon@mu.edu.tr</a></p></section>
+<p class="contact-row">
+  <span class="muted">Email:</span>
+  <button class="email-link" type="button" data-mail="university">
+    University
+  </button>
+  <span class="contact-sep">·</span>
+  <button class="email-link" type="button" data-mail="gmail">
+    Gmail
+  </button>
+</p>
 </main><footer class="footer"><div class="wrap">
 Zeki Bora Ön · Muğla Sıtkı Koçman University · Last updated October 2026
-</div></footer></body></html>
+</div></footer>
+<script>
+(function () {
+  const emails = {
+    university: ["boraon", "mu.edu.tr"],
+    gmail: ["zekiboraon", "gmail.com"]
+  };
+
+  document.querySelectorAll("[data-mail]").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const parts = emails[button.dataset.mail];
+      const address = parts[0] + "@" + parts[1];
+      window.location.href = "mailto:" + address;
+    });
+  });
+})();
+</script>
+</body></html>
