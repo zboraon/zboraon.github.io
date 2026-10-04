@@ -61,7 +61,8 @@
   </button>
 </p>
 </main><footer class="footer"><div class="wrap">
-Zeki Bora Ön · Muğla Sıtkı Koçman University · Last updated October 2026
+Zeki Bora Ön · Muğla Sıtkı Koçman University · Last updated
+<span id="last-updated"></span>
 </div></footer>
 <script>
 (function () {
@@ -77,6 +78,18 @@ Zeki Bora Ön · Muğla Sıtkı Koçman University · Last updated October 2026
       window.location.href = "mailto:" + address;
     });
   });
+})();
+</script>
+  <script>
+(function () {
+  const modified = new Date(document.lastModified);
+
+  const formatted = modified.toLocaleDateString("en-GB", {
+    month: "long",
+    year: "numeric"
+  });
+
+  document.getElementById("last-updated").textContent = formatted;
 })();
 </script>
 </body></html>
