@@ -1,16 +1,16 @@
-**Zeki Bora Ön — Bayesian Statistics, Palaeoclimate and Environmental Time Series**
+# Zeki Bora Ön — Bayesian Statistics, Palaeoclimate and Environmental Time Series
 
-This repository hosts the academic website of Zeki Bora Ön, Assistant Professor at Muğla Sıtkı Koçman University, Türkiye.
+This repository hosts the academic website of **Zeki Bora Ön**, Assistant Professor at **Muğla Sıtkı Koçman University, Türkiye**.
 
-Website: https://zboraon.github.io/
-Publications: https://zboraon.github.io/publications.html
-ORCID: https://orcid.org/0000-0002-8684-3476
-Google Scholar: https://scholar.google.com.tr/citations?user=vldGBdoAAAAJ
-GitHub: https://github.com/zboraon
+**Website:** https://zboraon.github.io/  
+**Publications:** https://zboraon.github.io/publications.html  
+**ORCID:** https://orcid.org/0000-0002-8684-3476  
+**Google Scholar:** https://scholar.google.com.tr/citations?user=vldGBdoAAAAJ  
+**GitHub:** https://github.com/zboraon  
 
-**Research profile**
+## Research profile
 
-My research focuses on the development and application of Bayesian statistical methods to palaeoclimate, palaeoenvironmental and environmental time-series data.
+My research focuses on the development and application of **Bayesian statistical methods to palaeoclimate, palaeoenvironmental and environmental time-series data**.
 
 I am particularly interested in statistical problems that arise when environmental records are:
 
@@ -21,11 +21,11 @@ I am particularly interested in statistical problems that arise when environment
 - expected to contain abrupt changes or regime shifts,
 - spatially heterogeneous across sites or regions.
 
-My work combines statistical methodology with applications to Quaternary and Holocene climate variability, particularly in the eastern Mediterranean, Anatolia and adjacent regions.
+My work combines statistical methodology with applications to **Quaternary and Holocene climate variability**, particularly in the **eastern Mediterranean, Anatolia and adjacent regions**.
 
-**Main research areas**
+## Main research areas
 
-Bayesian palaeoclimate reconstruction
+### Bayesian palaeoclimate reconstruction
 
 I use hierarchical and multilevel Bayesian models to combine information from multiple palaeoclimate records while explicitly representing uncertainty.
 
@@ -33,11 +33,11 @@ Applications include regional temperature reconstruction, proxy synthesis and pr
 
 Relevant publication:
 
-- A novel Bayesian multilevel regression approach to the reconstruction of an eastern Mediterranean temperature record for the last 10,000 years
-  The Holocene (2023)
+- **A novel Bayesian multilevel regression approach to the reconstruction of an eastern Mediterranean temperature record for the last 10,000 years**  
+  *The Holocene* (2023)  
   https://doi.org/10.1177/09596836231163508
 
-Bayesian change-point analysis
+### Bayesian change-point analysis
 
 A major part of my research concerns the statistical identification and dating of environmental transitions.
 
@@ -53,28 +53,28 @@ Applications include:
 
 Relevant publications include:
 
-- A Bayesian change point analysis re-examines the 4.2 ka BP event in southeast Europe and southwest Asia
-  Quaternary Science Reviews (2023)
+- **A Bayesian change point analysis re-examines the 4.2 ka BP event in southeast Europe and southwest Asia**  
+  *Quaternary Science Reviews* (2023)  
   https://doi.org/10.1016/j.quascirev.2023.108163
 
-- Dates of Holocene environmental changes in Lake Bafa: A hierarchical Bayesian analysis of change points
-  Turkish Geographical Review (2023)
+- **Dates of Holocene environmental changes in Lake Bafa: A hierarchical Bayesian analysis of change points**  
+  *Turkish Geographical Review* (2023)  
   https://doi.org/10.17211/tcd.1283443
 
-- A conceptual and statistical framework for delineating the timing of a stratigraphic transition: Holocene–Anthropocene boundary as a case study
-  Progress in Physical Geography: Earth and Environment (2025)
+- **A conceptual and statistical framework for delineating the timing of a stratigraphic transition: Holocene–Anthropocene boundary as a case study**  
+  *Progress in Physical Geography: Earth and Environment* (2025)  
   https://doi.org/10.1177/03091333241310742
 
-State-space models and missing environmental data
+### State-space models and missing environmental data
 
 Environmental and palaeoclimate records frequently contain gaps, irregular sampling intervals and measurement uncertainty.
 
-I use Bayesian state-space models, latent-process models and Bayesian variable-selection methods to reconstruct missing observations while propagating uncertainty through the analysis.
+I use **Bayesian state-space models**, latent-process models and Bayesian variable-selection methods to reconstruct missing observations while propagating uncertainty through the analysis.
 
 Relevant publication:
 
-- Bayesian stochastic imputation of discontinuous paleoenvironmental proxy records: a case study from Lake Ohrid stable isotopes
-  Environmental and Ecological Statistics (2026)
+- **Bayesian stochastic imputation of discontinuous paleoenvironmental proxy records: a case study from Lake Ohrid stable isotopes**  
+  *Environmental and Ecological Statistics* (2026)  
   https://doi.org/10.1007/s10651-025-00701-6
 
 This work may be relevant to researchers working with:
@@ -87,17 +87,17 @@ This work may be relevant to researchers working with:
 - latent-state reconstruction,
 - uncertainty-aware imputation.
 
-Bayesian structural time series and counterfactual analysis
+### Bayesian structural time series and counterfactual analysis
 
 I have also used Bayesian structural time-series models to construct counterfactual palaeoclimate trajectories and test whether hypothesised climatic events produce statistically credible departures from expected background variability.
 
 Relevant publication:
 
-- A Bayesian test for the 4.2 ka BP abrupt climatic change event in southeast Europe and southwest Asia using structural time series analysis of paleoclimate data
-  Climatic Change (2021)
+- **A Bayesian test for the 4.2 ka BP abrupt climatic change event in southeast Europe and southwest Asia using structural time series analysis of paleoclimate data**  
+  *Climatic Change* (2021)  
   https://doi.org/10.1007/s10584-021-03010-6
 
-Quantitative proxy and environmental time-series analysis
+### Quantitative proxy and environmental time-series analysis
 
 My earlier work includes statistical extraction of environmental signals from sediment records using techniques such as:
 
@@ -106,9 +106,9 @@ My earlier work includes statistical extraction of environmental signals from se
 - Lomb–Scargle periodograms,
 - multivariate sediment-geochemistry analysis.
 
-Applications include long sediment sequences from Lake Van and Lake Hazar in eastern Anatolia.
+Applications include long sediment sequences from **Lake Van** and **Lake Hazar** in eastern Anatolia.
 
-**Scientific applications**
+## Scientific applications
 
 The statistical methods developed or applied in this research are relevant to questions involving:
 
@@ -127,7 +127,7 @@ The statistical methods developed or applied in this research are relevant to qu
 - state-space modelling,
 - environmental time-series analysis.
 
-**Geographic focus**
+## Geographic focus
 
 Research applications include palaeoclimate and palaeoenvironmental records from:
 
@@ -142,7 +142,7 @@ Research applications include palaeoclimate and palaeoenvironmental records from
 - Lake Gölcük,
 - Lake Acıgöl.
 
-**Publications**
+## Publications
 
 The complete publication guide is available at:
 
@@ -160,10 +160,10 @@ Individual publication pages provide:
 
 Machine-readable bibliography:
 
-- "publications.bib"
-- "publications.json"
+- `publications.bib`
+- `publications.json`
 
-Reproducible research and code
+## Reproducible research and code
 
 Several publications are accompanied by public analysis code on GitHub.
 
@@ -179,23 +179,21 @@ GitHub profile:
 
 https://github.com/zboraon
 
-For researchers and literature-discovery systems
+## For researchers and literature-discovery systems
 
-The website is structured to make the relationship between research questions, statistical methods and publications explicit.
+The website is structured to make the relationship between **research questions, statistical methods and publications** explicit.
 
 A paper may be particularly relevant when searching for literature on:
 
-Bayesian palaeoclimate reconstruction · hierarchical Bayesian models · Bayesian change-point analysis · abrupt climate events · 4.2 ka BP event · environmental regime shifts · state-space models · missing environmental data · palaeoclimate proxy imputation · uncertainty propagation · stable-isotope time series · environmental time-series analysis · eastern Mediterranean palaeoclimate
+**Bayesian palaeoclimate reconstruction · hierarchical Bayesian models · Bayesian change-point analysis · abrupt climate events · 4.2 ka BP event · environmental regime shifts · state-space models · missing environmental data · palaeoclimate proxy imputation · uncertainty propagation · stable-isotope time series · environmental time-series analysis · eastern Mediterranean palaeoclimate**
 
-For scientific claims and citations, please consult the published article and DOI/version of record linked from each publication page.
+For scientific claims and citations, please consult the **published article and DOI/version of record** linked from each publication page.
 
-Academic affiliation
+## Academic affiliation
 
-Zeki Bora Ön
-Department of Electrical and Electronics Engineering
-Department of Geological Engineering
-
-Muğla Sıtkı Koçman University
+**Zeki Bora Ön**  
+Department of Electrical and Electronics Engineering  
+Muğla Sıtkı Koçman University  
 Muğla, Türkiye
 
-Email: boraon at mu.edu.tr
+Email: boraon@mu.edu.tr
