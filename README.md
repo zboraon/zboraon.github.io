@@ -192,8 +192,15 @@ For scientific claims and citations, please consult the **published article and 
 ## Academic affiliation
 
 **Zeki Bora Ön**  
-Department of Electrical and Electronics Engineering  
+Department of Electrical and Electronics Engineering 
+Department of Geological Engineering
 Muğla Sıtkı Koçman University  
 Muğla, Türkiye
 
-Email: boraon@mu.edu.tr
+University email: `boraon [at] mu [dot] edu [dot] tr`  
+Personal email: `zekiboraon [at] gmail [dot] com`
+
+For more information, see:
+
+- Academic website: https://zboraon.github.io/
+- University profile: https://www.mu.edu.tr/tr/personel/boraon
