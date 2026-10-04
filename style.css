@@ -49,3 +49,29 @@ ul.clean{padding-left:1.2rem}
 .downloads{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}
 .latest{border-left:3px solid var(--blue)}
 @media(max-width:680px){.nav{gap:13px;flex-wrap:wrap;padding:10px 0}.brand{width:100%}.hero{padding-top:42px}.toolbar{grid-template-columns:1fr}h1{letter-spacing:-.025em}.stats{gap:20px}}
+.contact-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.email-link{
+  appearance:none;
+  border:0;
+  background:none;
+  padding:0;
+  margin:0;
+  color:var(--blue);
+  font:inherit;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.email-link:hover{
+  text-decoration:underline;
+}
+
+.contact-sep{
+  color:var(--muted);
+}
