@@ -4,7 +4,7 @@
     "orcid": "https://orcid.org/0000-0002-8684-3476",
     "homepage": "https://zboraon.github.io/"
   },
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "journal_articles": [
     {
       "type": "journal",
@@ -686,6 +686,29 @@
     }
   ],
   "other_scholarly_contributions": [
+    {
+      "type": "popular_article",
+      "slug": "felsefe-bulteni-2026",
+      "title": "Karotlarda Saklı İklim Hikâyeleri",
+      "authors": [
+        "Zeki Bora Ön"
+      ],
+      "year": 2026,
+      "venue": "Felsefe Bülteni",
+      "language": "tr",
+      "audience": "Students and general readers",
+      "summary": "A Turkish-language popular-science article for students and general readers, introducing how sediment cores preserve evidence of past climate and environmental change.",
+      "url": "https://felsefebulteni.com/bulten/14?i=1",
+      "keywords": [
+        "sediment cores",
+        "palaeoclimate",
+        "climate archives",
+        "popular science",
+        "public outreach"
+      ],
+      "full_text_url": "https://zboraon.github.io/other/felsefe-bulteni-2026.pdf",
+      "pdf_url": "https://zboraon.github.io/other/felsefe-bulteni-2026.pdf"
+    },
     {
       "type": "other",
       "slug": "climate-past-comment-2019",

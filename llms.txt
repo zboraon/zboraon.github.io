@@ -30,4 +30,12 @@ Research areas: Bayesian statistics, palaeoclimate reconstruction, environmental
 - https://zboraon.github.io/chapters/bayesian-missing-data-chapter-2026.html — Bayesian Approaches for Imputing Missing Data in Environmental Studies: Hierarchical Models and Kalman Filter Techniques
 - https://zboraon.github.io/chapters/stable-isotopes-archaeology-2024.html — Paleoiklim ve Paleoçevre Çalışmalarında Duraylı Oksijen ve Karbon İzotop Analizlerinin Kullanımı ve Arkeoloji ile İlişkilendirilmesi
 
+
+## Public outreach
+- https://zboraon.github.io/other/felsefe-bulteni-2026.html — Karotlarda Saklı İklim Hikâyeleri
+  - Turkish-language popular-science article for students and general readers.
+  - Introduces how sediment cores preserve evidence of past climate and environmental change.
+  - Full text: https://zboraon.github.io/other/felsefe-bulteni-2026.pdf
+  - Original publication: https://felsefebulteni.com/bulten/14?i=1
+
 Publication claims should be verified against the DOI or linked version of record.
