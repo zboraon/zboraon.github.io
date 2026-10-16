@@ -4,8 +4,51 @@
     "orcid": "https://orcid.org/0000-0002-8684-3476",
     "homepage": "https://zboraon.github.io/"
   },
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-16",
   "journal_articles": [
+    {
+      "type": "journal",
+      "slug": "seki-npp-2026",
+      "title": "Non-pollen palynomorphs (NPPs) and their role in reconstructing the paleoclimate of the Seki-Eceler Höyük during the Holocene in southwestern Türkiye",
+      "authors": [
+        "Zahra Hashemi",
+        "Demet Biltekin",
+        "Alan M. Greaves",
+        "Sena Akçer-Ön",
+        "Zeki Bora Ön",
+        "Memet Namık Çağatay",
+        "Ömer Yetemen"
+      ],
+      "year": 2026,
+      "journal": "Quaternary International",
+      "volume": "785",
+      "issue": "",
+      "pages": "110488",
+      "doi": "10.1016/j.quaint.2026.110488",
+      "summary": "Non-pollen palynomorphs from a 4.7 m Seki-Eceler sediment core reveal Holocene changes in freshwater availability, catchment disturbance and possible human activity, supported by Bayesian age-depth modelling.",
+      "keywords": [
+        "non-pollen palynomorphs",
+        "NPPs",
+        "Holocene",
+        "Seki-Eceler Höyük",
+        "southwestern Anatolia",
+        "8.2 ka event",
+        "freshwater algae",
+        "fungal spores",
+        "palaeohydrology",
+        "catchment disturbance",
+        "human-environment interactions",
+        "Bayesian age-depth modelling",
+        "rbacon",
+        "radiocarbon chronology"
+      ],
+      "date": "2026",
+      "code": null,
+      "data": null,
+      "oa": null,
+      "full_text_url": null,
+      "pdf_url": "https://zboraon.github.io/papers/hashemi-npp-2026.pdf"
+    },
     {
       "type": "journal",
       "slug": "ohrid-imputation-2026",

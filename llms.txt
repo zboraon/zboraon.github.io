@@ -7,6 +7,8 @@ Research areas: Bayesian statistics, palaeoclimate reconstruction, environmental
 - https://zboraon.github.io/publications.html
 
 ## Journal articles
+
+- https://zboraon.github.io/papers/seki-npp-2026.html — Non-pollen palynomorphs (NPPs) and their role in reconstructing the paleoclimate of the Seki-Eceler Höyük during the Holocene in southwestern Türkiye
 - https://zboraon.github.io/papers/seki-basin-2026.html — Holocene vegetation change, climate variability, and human impacts on the Seki Basin (southwestern Türkiye): Evidence from a multiproxy approach
 - https://zboraon.github.io/papers/fire-climate-human-2026.html — Fire–climate–human interactions during the Holocene: insights from sediment records in southwestern Türkiye
 - https://zboraon.github.io/papers/ohrid-imputation-2026.html — Bayesian stochastic imputation of discontinuous paleoenvironmental proxy records: a case study from Lake Ohrid stable isotopes
